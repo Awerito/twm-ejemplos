@@ -1,0 +1,118 @@
+/* Estilos básicos */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+  color: #111;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  color: #222;
+}
+
+/* Formulario */
+form {
+  background: #fff;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+fieldset {
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+legend {
+  font-weight: bold;
+  padding: 0 6px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+/* Inputs de texto y selects */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+input[list] {
+  display: block;
+  width: 100%;
+  box-sizing: border-box; /* evita que se desborde del fieldset */
+  margin-bottom: 12px;
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+/* Radios y checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 6px;
+}
+label input[type="radio"],
+label input[type="checkbox"] {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+/* Botones */
+button {
+  width: auto;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 14px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background: #1d4ed8;
+}
+
+/* Validación nativa */
+input:invalid {
+  border-color: #e53e3e;
+}
+input:valid {
+  border-color: #38a169;
+}
+
+.note {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Tablas en done.html */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+th {
+  background: #f1f1f1;
+  text-align: left;
+}

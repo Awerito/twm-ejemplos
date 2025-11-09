@@ -1,0 +1,117 @@
+:root {
+  --bg: #0b1020;
+  --card: #121831;
+  --fg: #eef2ff;
+  --muted: #93a2ff;
+  --accent: #7c8cff;
+  --accent-strong: #4c5bff;
+  --border: #222a4a;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: system-ui, sans-serif;
+}
+
+.wrap {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+h1 {
+  margin: 0 0 16px;
+  font-size: 1.6rem;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.field input {
+  background: transparent;
+  color: var(--fg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 14px;
+  font-size: 1.1rem;
+}
+
+.group {
+  margin: 12px 0 8px;
+}
+.group-label {
+  color: var(--muted);
+  display: block;
+  margin-bottom: 8px;
+}
+
+.tip-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+.tip-btn {
+  border: 1px solid var(--border);
+  background: #0f1530;
+  color: var(--fg);
+  border-radius: 12px;
+  padding: 12px 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.tip-btn.active {
+  background: linear-gradient(180deg, var(--accent), var(--accent-strong));
+  border: none;
+  color: white;
+}
+
+.custom-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+.custom-row input {
+  width: 120px;
+  background: transparent;
+  color: var(--fg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.micro {
+  margin: 8px 2px 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.results {
+  margin-top: 16px;
+  border-top: 1px dashed var(--border);
+  padding-top: 12px;
+}
+.line {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+.total strong {
+  font-size: 1.25rem;
+  color: #fff;
+}
