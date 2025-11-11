@@ -54,7 +54,7 @@ partir desde cero (a elección).
    ```bash
    yarn build
    yarn preview
-   ```
+   ```  
 2. Si usas config pública, define `VITE_API_BASE_URL` y léela con
    `import.meta.env.VITE_API_BASE_URL`.
 3. Verifica estructura `dist/` y rutas de assets.
@@ -75,8 +75,7 @@ partir desde cero (a elección).
    git commit -m "feat: about me page"
    git remote add origin <url>
    git push -u origin master
-   ```
-
+   ```  
 2. En Netlify: **Add new site → Import an existing project**, conecta GitHub y
    selecciona el repo.
 3. Configura:
