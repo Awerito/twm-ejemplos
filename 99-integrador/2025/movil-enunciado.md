@@ -60,7 +60,7 @@ El objetivo del proyecto es construir la aplicación móvil nativa que consuma c
 
 1. **Fecha de Entrega:**
 
-   * **Fecha:** 2025-12-18
+   * **Fecha:** 2025-12-11
    * **Descripción:** Entrega del url del repositorio en GitHub del código fuente implementado de la aplicación móvil con React Native + NativeWind.
    * **Método de Entrega:** [email](mailto:diego.munozviveros@ulagos.cl)
 
