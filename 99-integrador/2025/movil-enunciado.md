@@ -1,4 +1,4 @@
-# **Proyecto Integrador 2: Desarrollo de Aplicación Móvil – Sistema de Venta de Tickets**
+# **Proyecto: Desarrollo de Aplicación Móvil – Sistema de Venta de Tickets**
 
 ⏳ **Duración total: 3 semanas**
 
