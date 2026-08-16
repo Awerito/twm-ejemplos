@@ -11,18 +11,24 @@ con el material teórico disponible en [apuntestecweb][repo-apuntes].
 
 ```
 twm-ejemplos/
-├── 01-introduccion/
-├── 02-html-css/
-├── 03-javascript/
-├── 04-javascript-extended/
-├── 05-react-introduction/
-├── 06-react/
-├── 07-react-hooks-context/
-├── 08-javascript-fetch/
-├── 09-react-router/
-├── 10-react-tailwind/
+├── 03-html-css/
+├── 04-javascript/              # fundamentos/ + pensar-en-react/
+├── 05-javascript-extended/
+├── 06-react-introduction/
+├── 07-react/
+├── 08-react-hooks-context/
+├── 09-javascript-fetch/        # todoapp/ + weatherapp/
+├── 10-react-router/
+├── 11-react-tailwind/
+├── 12-react-build/
+├── 13-react-native/
+├── 14-react-native-tailwind/
 └── README.md
 ```
+
+> La numeración de cada carpeta coincide con la clase teórica que practica en
+> [apuntestecweb][repo-apuntes]. Una clase con más de una actividad usa
+> subcarpetas (p. ej. `04-javascript/`, `09-javascript-fetch/`).
 
 Cada carpeta incluye los **archivos de ejemplo trabajados en clase**, junto con
 pequeños ejercicios y demostraciones prácticas.
@@ -61,18 +67,20 @@ pequeños ejercicios y demostraciones prácticas.
 
 ## 🧾 Relación con apuntes teóricos
 
-| Carpeta                | Clase teórica asociada       |
-| ---------------------- | ---------------------------- |
-| 01-introduccion        | [01-introduction][c1]        |
-| 02-html-css            | [02-html-css][c2]            |
-| 03-javascript          | [03-javascript][c3]          |
-| 04-javascript-extended | [04-javascript-extended][c4] |
-| 05-react-introduction  | [05-react-introduction][c5]  |
-| 06-react               | [06-react][c6]               |
-| 07-react-hooks-context | [07-react-hooks-context][c7] |
-| 08-javascript-fetch    | [08-javascript-fetch][c8]    |
-| 09-react-router        | [09-react-router][c9]        |
-| 10-react-tailwind      | [10-react-tailwind][c10]     |
+| Carpeta                  | Clase teórica asociada         |
+| ------------------------ | ------------------------------ |
+| 03-html-css              | [03-html-css][c3]              |
+| 04-javascript            | [04-javascript][c4]            |
+| 05-javascript-extended   | [05-javascript-extended][c5]   |
+| 06-react-introduction    | [06-react-introduction][c6]    |
+| 07-react                 | [07-react][c7]                 |
+| 08-react-hooks-context   | [08-react-hooks-context][c8]   |
+| 09-javascript-fetch      | [09-javascript-fetch][c9]      |
+| 10-react-router          | [10-react-router][c10]         |
+| 11-react-tailwind        | [11-react-tailwind][c11]       |
+| 12-react-build           | [12-react-build][c12]          |
+| 13-react-native          | [13-react-native][c13]         |
+| 14-react-native-tailwind | [14-react-native-tailwind][c14] |
 
 ---
 
@@ -82,16 +90,18 @@ pequeños ejercicios y demostraciones prácticas.
 
 ---
 
-[c1]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/01-introduction
-[c2]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/02-html-css
-[c3]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/03-javascript
-[c4]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/04-javascript-extended
-[c5]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/05-react-introduction
-[c6]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/06-react
-[c7]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/07-react-hooks-context
-[c8]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/08-javascript-fetch
-[c9]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/09-react-router
-[c10]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/10-react-tailwind
+[c3]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/03-html-css
+[c4]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/04-javascript
+[c5]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/05-javascript-extended
+[c6]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/06-react-introduction
+[c7]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/07-react
+[c8]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/08-react-hooks-context
+[c9]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/09-javascript-fetch
+[c10]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/10-react-router
+[c11]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/11-react-tailwind
+[c12]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/12-react-build
+[c13]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/13-react-native
+[c14]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/14-react-native-tailwind
 [repo-apuntes]: https://github.com/Awerito/tecnologias-web-apuntes
 [repo-ejemplos]: https://github.com/Awerito/twm-ejemplos
 [license]: https://github.com/Awerito/twm-ejemplos/blob/master/LICENSE
