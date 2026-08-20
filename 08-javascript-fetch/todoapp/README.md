@@ -191,3 +191,5 @@ cURL o Postman.
 
 El diseño y modelado de la web app es libre: define estructura, estilos y
 organización a tu criterio.
+
+<!-- gist -->

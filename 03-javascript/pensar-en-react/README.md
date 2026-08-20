@@ -65,3 +65,5 @@ const players = [
 [mdn-array]: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array "Métodos de arreglos"
 [mdn-spread]: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Spread_syntax "Spread syntax"
 [react-thinking]: https://react.dev/learn/thinking-in-react "Thinking in React"
+
+<!-- gist -->

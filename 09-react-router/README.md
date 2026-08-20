@@ -57,3 +57,5 @@ yarn add react-router-dom
 
 - [React Router Docs](https://reactrouter.com/en/main/start/tutorial)
 - [Guía oficial de Vite](https://vitejs.dev/guide/)
+
+<!-- gist -->

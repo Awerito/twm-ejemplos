@@ -150,3 +150,5 @@ Reglas simples:
 * React Docs: [https://react.dev/](https://react.dev/)
 * `useState`: [https://react.dev/reference/react/useState](https://react.dev/reference/react/useState)
 * Vite (guía): [https://vitejs.dev/guide/](https://vitejs.dev/guide/)
+
+<!-- gist -->

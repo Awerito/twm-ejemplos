@@ -118,3 +118,5 @@ Guarda el archivo y la app se recargará automáticamente en el celular.
 * Metro Bundler ejecutándose
 * App visible y funcionando en el teléfono
 * Primer render `"Hello React Native"` personalizado
+
+<!-- gist -->

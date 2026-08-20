@@ -56,3 +56,5 @@ const products = [
 [mdn-qs]: https://developer.mozilla.org/es/docs/Web/API/Document/querySelector "querySelector"
 [mdn-listener]: https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener "addEventListener"
 [mdn-innerhtml]: https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML "innerHTML"
+
+<!-- gist -->

@@ -238,3 +238,5 @@ src/
 [4]: https://open-meteo.com/en/docs/geocoding-api "Geocoding API"
 [5]: https://react-leaflet.js.org/docs/start-installation "Installation"
 [6]: https://operations.osmfoundation.org/policies/tiles "Tile Usage Policy - OSMF Operations Working Group"
+
+<!-- gist -->

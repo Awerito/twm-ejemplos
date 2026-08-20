@@ -69,3 +69,5 @@ const books = [
 [mdn-array]: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array "Métodos de arreglos"
 [mdn-destructuring]: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment "Destructuring assignment"
 [mdn-closures]: https://developer.mozilla.org/es/docs/Web/JavaScript/Closures "Closures en JavaScript"
+
+<!-- gist -->

@@ -59,3 +59,5 @@ el porcentaje.
 - [Documentación oficial de React](https://react.dev/)  
 - [useState (React Docs)](https://react.dev/reference/react/useState)  
 - [Vite – Getting Started](https://vitejs.dev/guide/)
+
+<!-- gist -->

@@ -155,3 +155,5 @@ Esto inicia el **Metro Bundler** y muestra:
   - Mostrar roles uno por uno
   - Reiniciar juego
   - Interfaz con Tailwind/NativeWind
+
+<!-- gist -->

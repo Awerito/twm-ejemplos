@@ -104,3 +104,5 @@ repetir cálculos.
 - [React Docs – Context](https://react.dev/reference/react/useContext)
 - [React Docs – Memoization Hooks](https://react.dev/reference/react/useMemo)
 - [Patterns.dev – Context vs Prop Drilling](https://www.patterns.dev/posts/context/)
+
+<!-- gist -->

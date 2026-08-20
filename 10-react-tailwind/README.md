@@ -154,3 +154,5 @@ como en oscuro.
 > 🧠 Consejo: entra a la documentación y escribe en el buscador lo que quieras hacer
 > (por ejemplo: *border radius*, *grid columns*, *hover background*).
 > Tailwind tiene ejemplos claros y en vivo de cada clase.
+
+<!-- gist -->

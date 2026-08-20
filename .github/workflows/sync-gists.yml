@@ -1,0 +1,24 @@
+name: Sync activity gists
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "**/README.md"
+      - ".github/scripts/sync-gists.sh"
+      - ".github/workflows/sync-gists.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: sync-gists
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reconcile activity gists
+        env:
+          GH_TOKEN: ${{ secrets.GIST_TOKEN }}
+        run: bash .github/scripts/sync-gists.sh
