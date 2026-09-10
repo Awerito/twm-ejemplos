@@ -10,7 +10,7 @@ el **teléfono real**.
 ## **📋 Requisitos Previos**
 
 * **Node.js ≥ 24.x**  
-* **Yarn**  
+* **npm** (viene incluido con Node.js)  
 * Teléfono Android o iPhone con **Expo Go**  
 * Ambos dispositivos conectados a la **misma red Wi-Fi**
 
@@ -21,7 +21,7 @@ el **teléfono real**.
 Comando principal:
 
 ```bash
-npx rn-new --nativewind --yarn
+npx rn-new --nativewind --npm
 ```
 
 * Elegir un nombre de proyecto (ej: `impostor-game`)
@@ -38,38 +38,18 @@ Esto genera un proyecto Expo con:
 
 ---
 
-## **Ajuste obligatorio de Yarn**
-
-React Native/Expo no funcionan bien con **Plug'n'Play (PnP)** de Yarn moderno.
-
-Crea el archivo **.yarnrc.yml** en el proyecto:
-
-```yaml
-nodeLinker: node-modules
-```
-
-Luego ejecuta:
-
-```bash
-yarn install
-```
-
----
-
 ## **Ejecutar el servidor**
 
 Con el proyecto listo:
 
 ```bash
-yarn start
+npm start
 ```
 
 Esto inicia el **Metro Bundler** y muestra:
 * QR para abrir en el teléfono
 * Opciones LAN / Tunnel / Local
 * Botones para refrescar o reiniciar la app
-
-> Tip: `yarn start --tunnel` es útil si la red bloquea conexiones LAN.
 
 ---
 

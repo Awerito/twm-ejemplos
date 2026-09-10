@@ -8,14 +8,14 @@ un simulador de propinas tipo “pantalla de pago”.
 ---
 
 - **Trabajo individual** (apoyo en parejas opcional).  
-- Requiere **Node.js ≥ 23.x.x** y **Yarn**.  
+- Requiere **Node.js ≥ 23.x.x** y **pnpm**.  
 - Proyecto con **Vite + React**.  
 
 ---
 
 ### **📋 Instrucciones Generales**
 
-1. Crea un proyecto con Vite + React (`yarn create vite`).  
+1. Crea un proyecto con Vite + React (`pnpm create vite`).  
 2. Limpia la plantilla inicial (borra logos y CSS innecesarios).  
 3. Crea un componente `TipCalculator` y úsalo en `App.jsx`.  
 4. Mantén estado con `useState`; no necesitas validaciones complejas.  

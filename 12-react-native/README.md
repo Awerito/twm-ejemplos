@@ -9,7 +9,7 @@
 ## **📋 Requisitos Previos**
 
 * **Node.js ≥ 24.x**  
-* **Yarn**  
+* **npm** (viene incluido con Node.js)  
 * Teléfono Android o iPhone con **Expo Go**  
 * Ambos dispositivos conectados a la **misma red Wi-Fi**
 
@@ -20,39 +20,21 @@
 ## Comando principal
 
 ```bash
-yarn create expo hello-rn
+npm create expo hello-rn
 cd hello-rn
-yarn start
+npm start
 ```
 
 Esto abrirá **Expo Dev Tools** (el panel de desarrollo) en el navegador.
 
 ---
 
-# **2) Ajuste obligatorio de Yarn**
-
-React Native/Expo no funcionan bien con **Plug’n’Play (PnP)** de Yarn moderno.
-
-Crea el archivo **.yarnrc.yml** en el proyecto:
-
-```yaml
-nodeLinker: node-modules
-```
-
-Luego ejecuta:
-
-```bash
-yarn install
-```
-
----
-
-# **3) Ejecutar el servidor**
+# **2) Ejecutar el servidor**
 
 Con el proyecto listo:
 
 ```bash
-yarn start
+npm start
 ```
 
 Esto inicia el **Metro Bundler** y muestra:
@@ -61,11 +43,9 @@ Esto inicia el **Metro Bundler** y muestra:
 * Opciones LAN / Tunnel / Local
 * Botones para refrescar o reiniciar la app
 
-> Tip: `yarn start --tunnel` es útil si la red bloquea conexiones LAN.
-
 ---
 
-# **4) Ver la app en el celular**
+# **3) Ver la app en el celular**
 
 ## Android
 
@@ -81,7 +61,7 @@ Esto inicia el **Metro Bundler** y muestra:
 
 ---
 
-# **5) Editar el Hola Mundo**
+# **4) Editar el Hola Mundo**
 
 Abre `App.js`:
 

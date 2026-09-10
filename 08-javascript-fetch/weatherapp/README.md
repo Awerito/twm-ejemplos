@@ -7,7 +7,7 @@ click** o **geolocalización**, y consultar **clima actual** para esa ubicación
 ---
 
 * Trabajo individual (apoyo en parejas opcional).
-* Requiere **Node.js ≥ 24.x** y **Yarn**.
+* Requiere **Node.js ≥ 24.x** y **pnpm**.
 * Proyecto con **Vite + React (JS)**.
 * API pública: **Open-Meteo** (gratis y sin key). ([Open Meteo][1])
 * Tiles: **OpenStreetMap** con **atribución obligatoria**. ([leafletjs.com][2])
@@ -17,11 +17,11 @@ click** o **geolocalización**, y consultar **clima actual** para esa ubicación
 ### **📋 Setup**
 
 ```bash
-yarn create vite weather-map
+pnpm create vite weather-map
 # Framework: React  | Variant: JavaScript
 cd weather-map
-yarn add react-leaflet leaflet
-yarn
+pnpm add react-leaflet leaflet
+pnpm install
 ```
 
 En `src/main.jsx` o `src/App.jsx` **importa el CSS** de Leaflet:

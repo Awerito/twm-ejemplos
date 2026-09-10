@@ -8,7 +8,7 @@ drilling**: listado de productos, carrito y checkout con propina.
 ---
 
 - **Trabajo individual** (apoyo en parejas opcional).  
-- Requiere **Node.js ≥ 23 ** y **Yarn**.  
+- Requiere **Node.js ≥ 23 ** y **pnpm**.  
 - Proyecto con **Vite + React** (JavaScript).  
 - **Sin** librerías externas ni router: navegación por estado.
 
@@ -17,12 +17,12 @@ drilling**: listado de productos, carrito y checkout con propina.
 ### **📋 Setup**
 
 ```bash
-yarn create vite coffee-kiosk
+pnpm create vite coffee-kiosk
 # Framework: React
 # Variant:   JavaScript
 cd coffee-kiosk
-yarn
-yarn dev
+pnpm install
+pnpm dev
 ````
 
 Estructura sugerida:

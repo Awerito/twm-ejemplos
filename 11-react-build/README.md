@@ -52,8 +52,8 @@ partir desde cero (a elección).
 1. Ejecuta:
 
    ```bash
-   yarn build
-   yarn preview
+   pnpm build
+   pnpm preview
    ```  
 2. Si usas config pública, define `VITE_API_BASE_URL` y léela con
    `import.meta.env.VITE_API_BASE_URL`.
@@ -80,7 +80,7 @@ partir desde cero (a elección).
    selecciona el repo.
 3. Configura:
 
-   * **Build command:** `yarn build`
+   * **Build command:** `pnpm build`
    * **Publish directory:** `dist`
 4. Si usas `VITE_*`, define variables en **Site settings → Environment
    variables**.

@@ -7,7 +7,7 @@ rutas anidadas y parámetros dinámicos reutilizando componentes existentes.
 ---
 
 - Trabajo individual (parejas opcional).  
-- Requiere **Node.js ≥ 23.x** y **Yarn**.  
+- Requiere **Node.js ≥ 23.x** y **pnpm**.  
 - Proyecto basado en **Vite + React (JavaScript)**.
 
 ---
@@ -15,16 +15,16 @@ rutas anidadas y parámetros dinámicos reutilizando componentes existentes.
 ### **📋 Setup**
 
 ```bash
-yarn install
-yarn dev
+pnpm install
+pnpm dev
 ```
 
 Si partes desde cero:
 
 ```bash
-yarn create vite router-demo --template react
+pnpm create vite router-demo --template react
 cd router-demo
-yarn add react-router-dom
+pnpm add react-router-dom
 ```
 
 ---

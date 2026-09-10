@@ -8,7 +8,7 @@ componentes y modo oscuro.
 ---
 
 * Trabajo individual (colaboración opcional).
-* Requiere **Node.js ≥ 24.x** y **Yarn**.
+* Requiere **Node.js ≥ 24.x** y **pnpm**.
 * Proyecto con **Vite + React (JS)**.
 * No hay backend, el foco es **estructura y presentación**.
 
@@ -22,9 +22,9 @@ componentes y modo oscuro.
 2. Crea el proyecto base:
 
 ```bash
-yarn create vite landing-template --template react-swc
+pnpm create vite landing-template --template react-swc
 cd landing
-yarn add -D tailwindcss @tailwindcss/vite
+pnpm add -D tailwindcss @tailwindcss/vite
 ```
 
 3. Configura Tailwind en `vite.config.js`:
@@ -60,7 +60,7 @@ export default defineConfig({
 6. Verifica el arranque:
 
 ```bash
-yarn dev
+pnpm dev
 ```
 
 ---
@@ -107,7 +107,7 @@ como en oscuro.
 
 ## **🧪 Criterios de aceptación**
 
-1. La app arranca sin errores (`yarn dev` ok).
+1. La app arranca sin errores (`pnpm dev` ok).
 2. Usa **componentes reutilizables** (`Button`, `Card`, `Input`, `Navbar`, etc.).
 3. Diseño totalmente **responsive**.
 4. Modo oscuro funcional mediante toggle.

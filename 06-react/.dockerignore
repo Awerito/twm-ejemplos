@@ -1,8 +1,7 @@
 **
 !package.json
-!yarn.lock
-!.yarnrc.yml
-!.yarn/**
+!pnpm-lock.yaml
+!pnpm-workspace.yaml
 !vite.config.js
 !eslint.config.js
 !index.html

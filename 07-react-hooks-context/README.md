@@ -9,7 +9,7 @@ acciones sin prop drilling.
 ---
 
 - **Trabajo individual** (colaboración opcional en parejas).
-- Requiere **Node.js ≥ 23.x** y **Yarn**.
+- Requiere **Node.js ≥ 23.x** y **pnpm**.
 - Proyecto creado con **Vite + React (JavaScript)**.
 - Debes partir del resultado de la unidad anterior o clonar este repo como
 base.
@@ -19,16 +19,16 @@ base.
 ### **📋 Setup sugerido**
 
 ```bash
-yarn install
-yarn dev
+pnpm install
+pnpm dev
 ```
 
 Si inicias desde cero:
 
 ```bash
-yarn create vite coffee-kiosk --template react
+pnpm create vite coffee-kiosk --template react
 cd coffee-kiosk
-yarn
+pnpm install
 ```
 
 ---

@@ -1,14 +1,13 @@
 FROM node:24-alpine AS deps
 WORKDIR /app
-COPY package.json yarn.lock* .yarnrc.yml* ./
-COPY .yarn ./.yarn
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 RUN corepack enable
-RUN yarn install --immutable
+RUN pnpm install --frozen-lockfile
 
 FROM deps AS build
 WORKDIR /app
 COPY . .
-RUN yarn build
+RUN pnpm build
 
 FROM nginx:stable-alpine AS runtime
 COPY nginx.conf /etc/nginx/conf.d/default.conf

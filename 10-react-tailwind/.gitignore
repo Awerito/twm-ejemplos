@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/react,node,windows,vim,linux,yarn
-# Edit at https://www.toptal.com/developers/gitignore?templates=react,node,windows,vim,linux,yarn
+# Created by https://www.toptal.com/developers/gitignore/api/react,node,windows,vim,linux
+# Edit at https://www.toptal.com/developers/gitignore?templates=react,node,windows,vim,linux
 
 ### Linux ###
 *~
@@ -21,8 +21,6 @@
 logs
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
@@ -88,9 +86,6 @@ web_modules/
 # Output of 'npm pack'
 *.tgz
 
-# Yarn Integrity file
-.yarn-integrity
-
 # dotenv environment variable files
 .env
 .env.development.local
@@ -139,13 +134,6 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
-
-# yarn v2
-.yarn/cache
-.yarn/unplugged
-.yarn/build-state.yml
-.yarn/install-state.gz
-.pnp.*
 
 ### Node Patch ###
 # Serverless Webpack directories
@@ -215,21 +203,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-### yarn ###
-# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
-
-.yarn/*
-!.yarn/releases
-!.yarn/patches
-!.yarn/plugins
-!.yarn/sdks
-!.yarn/versions
-
-# if you are NOT using Zero-installs, then:
-# comment the following lines
-!.yarn/cache
-
-# and uncomment the following lines
-# .pnp.*
-
-# End of https://www.toptal.com/developers/gitignore/api/react,node,windows,vim,linux,yarn
+# End of https://www.toptal.com/developers/gitignore/api/react,node,windows,vim,linux

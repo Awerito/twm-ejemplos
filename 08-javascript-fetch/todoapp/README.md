@@ -7,7 +7,7 @@ carga/errores y un CRUD mínimo de tareas.
 ---
 
 * Trabajo individual (apoyo en parejas opcional).
-* Requiere **Node.js ≥ 24.x** y **Yarn**.
+* Requiere **Node.js ≥ 24.x** y **pnpm**.
 * Proyecto con **Vite + React (JS)**.
 * Backend disponible en `https://todo.grye.org`
 
@@ -16,10 +16,10 @@ carga/errores y un CRUD mínimo de tareas.
 ### **📋 Setup front**
 
 ```bash
-yarn create vite todo --template react-swc
+pnpm create vite todo --template react-swc
 cd todo
-yarn
-yarn dev
+pnpm install
+pnpm dev
 ```
 
 Setea el api con un archivo `.env`:

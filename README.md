@@ -60,7 +60,7 @@ pequeños ejercicios y demostraciones prácticas.
 4. Las actividades de **React** pueden levantarse con:
 
    ```bash
-   yarn dev
+   pnpm dev
    ```
 
 ---
