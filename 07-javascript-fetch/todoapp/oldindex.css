@@ -1,0 +1,140 @@
+:root {
+  --maxw: 900px;
+
+  --bg: #fffafb;
+  --fg: #2b1e29;
+  --panel: #ffffff;
+  --border: #e8cce2;
+
+  --accent: #d05fa2;
+  --accent-light: #e184b9;
+  --delete: #e84f72;
+
+  --muted: #8c6f82;
+  --muted-bg: #f7e8f2;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: system-ui, sans-serif;
+}
+
+.app {
+  display: grid;
+  place-items: start center;
+  padding: 3rem 1rem;
+  min-height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--maxw);
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(200, 140, 180, 0.1);
+}
+
+form {
+  display: flex;
+  align-items: stretch;
+  gap: 0.5rem;
+}
+
+input[type="text"],
+button {
+  font-size: 1.1rem;
+  line-height: 1.25rem;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  box-sizing: border-box;
+  border: 1px solid var(--border);
+}
+
+input[type="text"] {
+  flex: 1;
+  background: #fff;
+  color: var(--fg);
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: var(--accent);
+  background: #fff5fa;
+}
+
+button {
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    transform 0.1s ease;
+}
+
+button:hover:not(:disabled) {
+  background: var(--accent-light);
+}
+
+button:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.list {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.6rem;
+  align-items: center;
+  padding: 0.75rem 0.9rem;
+  background: var(--muted-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(200, 140, 180, 0.1);
+}
+
+.item.done .title {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.item .row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.item .row button:last-child {
+  background: var(--delete);
+  border-color: var(--delete);
+}
+
+.item .row button:last-child:hover {
+  background: #f2728a;
+}
+
+.meta {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
