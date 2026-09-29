@@ -8,7 +8,7 @@ import {
 import { useState, useEffect } from "react";
 import WeatherPanel from "./WeatherPanel";
 
-export default function MapView({ lat, lng, weather, onPick }) {
+export default function MapView({ lat, lng, data, isLoading, error, onPick }) {
   const [pos, setPos] = useState({ lat: -41.469, lng: -72.942 }); // Default: Puerto Montt, Chile
 
   useEffect(() => {
@@ -39,7 +39,13 @@ export default function MapView({ lat, lng, weather, onPick }) {
       <ClickHandler />
       <Marker position={pos}>
         <Popup>
-          <WeatherPanel lat={lat} lng={lng} weather={weather} />
+          <WeatherPanel
+            lat={lat}
+            lng={lng}
+            data={data}
+            isLoading={isLoading}
+            error={error}
+          />
         </Popup>
       </Marker>
     </MapContainer>

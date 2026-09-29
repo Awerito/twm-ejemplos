@@ -16,8 +16,8 @@ twm-ejemplos/
 ├── 04-javascript-extended/
 ├── 05-react-introduction/
 ├── 06-react/
-├── 07-react-hooks-context/
-├── 08-javascript-fetch/        # todoapp/ + weatherapp/
+├── 07-javascript-fetch/        # todoapp/ + weatherapp/
+├── 08-react-hooks-context/
 ├── 09-react-router/
 ├── 10-react-tailwind/
 ├── 11-react-build/
@@ -28,7 +28,7 @@ twm-ejemplos/
 
 > La numeración de cada carpeta coincide con la clase teórica que practica en
 > [apuntestecweb][repo-apuntes]. Una clase con más de una actividad usa
-> subcarpetas (p. ej. `03-javascript/`, `08-javascript-fetch/`).
+> subcarpetas (p. ej. `03-javascript/`, `07-javascript-fetch/`).
 
 Cada carpeta incluye los **archivos de ejemplo trabajados en clase**, junto con
 pequeños ejercicios y demostraciones prácticas.
@@ -74,8 +74,8 @@ pequeños ejercicios y demostraciones prácticas.
 | 04-javascript-extended   | [04-javascript-extended][c4]   |
 | 05-react-introduction    | [05-react-introduction][c5]    |
 | 06-react                 | [06-react][c6]                 |
-| 07-react-hooks-context   | [07-react-hooks-context][c7]   |
-| 08-javascript-fetch      | [08-javascript-fetch][c8]      |
+| 07-javascript-fetch      | [07-javascript-fetch][c7]      |
+| 08-react-hooks-context   | [08-react-hooks-context][c8]   |
 | 09-react-router          | [09-react-router][c9]          |
 | 10-react-tailwind        | [10-react-tailwind][c10]       |
 | 11-react-build           | [11-react-build][c11]          |
@@ -95,8 +95,8 @@ pequeños ejercicios y demostraciones prácticas.
 [c4]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/04-javascript-extended
 [c5]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/05-react-introduction
 [c6]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/06-react
-[c7]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/07-react-hooks-context
-[c8]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/08-javascript-fetch
+[c7]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/07-javascript-fetch
+[c8]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/08-react-hooks-context
 [c9]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/09-react-router
 [c10]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/10-react-tailwind
 [c11]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/11-react-build

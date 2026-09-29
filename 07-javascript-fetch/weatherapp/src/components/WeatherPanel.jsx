@@ -1,6 +1,4 @@
-export default function WeatherPanel({ lat, lng, weather }) {
-  const { data, isLoading, error } = weather;
-
+export default function WeatherPanel({ lat, lng, data, isLoading, error }) {
   if (!lat || !lng) return <p>Haz click en el mapa para consultar clima.</p>;
   if (isLoading) return <p>Cargando clima...</p>;
   if (error) return <p>Error: {error}</p>;
