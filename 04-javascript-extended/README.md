@@ -1,7 +1,7 @@
 ## **Actividad en Clase: JavaScript + DOM — Catálogo interactivo**
 
-⏳ **Duración total:** ~120 minutos  
-🎯 **Objetivo:** Dar el salto de la consola al navegador: pintar una lista en la
+**Duración total:** ~120 minutos  
+**Objetivo:** Dar el salto de la consola al navegador: pintar una lista en la
 página a partir de un arreglo y reaccionar a un evento del usuario, reutilizando
 lo ya visto (`map`, `filter`, funciones puras).
 
@@ -13,7 +13,7 @@ lo ya visto (`map`, `filter`, funciones puras).
 
 ---
 
-### **📋 Instrucciones Generales**
+### **Instrucciones Generales**
 
 1. Crea `index.html` con una casilla "Mostrar solo con stock" y un `<div>` donde
    se pinta el catálogo.
@@ -22,7 +22,7 @@ lo ya visto (`map`, `filter`, funciones puras).
 
 ---
 
-## **🧩 Ejercicio único: Catálogo de tenis de mesa**
+## **Ejercicio único: Catálogo de tenis de mesa**
 
 Partes de un arreglo de productos (con nombre y stock) y lo muestras en la
 página. Una casilla permite ver solo los productos disponibles.
@@ -47,7 +47,7 @@ const products = [
 
 ---
 
-## **🔗 Recursos útiles**
+## **Recursos útiles**
 
 - [Document.querySelector (MDN)][mdn-qs]
 - [EventTarget.addEventListener (MDN)][mdn-listener]

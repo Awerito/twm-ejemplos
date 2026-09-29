@@ -1,7 +1,7 @@
 ## **Actividad en Clase: Pensar como React (sin React)**
 
-⏳ **Duración total:** ~120 minutos  
-🎯 **Objetivo:** Imitar el modelo mental de React usando JavaScript puro:
+**Duración total:** ~120 minutos  
+**Objetivo:** Imitar el modelo mental de React usando JavaScript puro:
 funciones puras que reciben "props" y devuelven una vista, estado **inmutable**
 (`map` + spread, como `setState`) y la idea de que la vista siempre se arma a
 partir del estado (`render = f(estado)`).
@@ -14,7 +14,7 @@ partir del estado (`render = f(estado)`).
 
 ---
 
-### **📋 Instrucciones Generales**
+### **Instrucciones Generales**
 
 1. Crea un archivo `standings.js` y ejecútalo con `node standings.js`.
 2. Trabaja de forma **inmutable**: nunca modifiques el arreglo original; las
@@ -23,7 +23,7 @@ partir del estado (`render = f(estado)`).
 
 ---
 
-## **🧩 Ejercicio único: Tabla de posiciones de tenis de mesa**
+## **Ejercicio único: Tabla de posiciones de tenis de mesa**
 
 Trabajas en consola con un grupo de jugadores que parten en cero. La idea es
 imitar cómo funciona React: hay un estado (los jugadores y sus puntos), cada
@@ -51,12 +51,12 @@ const players = [
 5. Al final, mostrar el estado inicial otra vez para comprobar que nunca se
    modificó.
 
-> 💡 **Tip:** `sort` modifica el arreglo en sitio. Si quieres ordenar sin mutar,
+> **Tip:** `sort` modifica el arreglo en sitio. Si quieres ordenar sin mutar,
 > ordena sobre una copia (`[...list].sort(...)`).
 
 ---
 
-## **🔗 Recursos útiles**
+## **Recursos útiles**
 
 - [Array: map / filter (MDN)][mdn-array]
 - [Spread syntax (MDN)][mdn-spread]

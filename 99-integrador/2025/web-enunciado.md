@@ -1,8 +1,8 @@
 ## **Proyecto: Desarrollo de Aplicación Web – Sistema de Venta de Tickets**
 
-⏳ **Duración total: 4 semanas x Entregas**
+**Duración total: 4 semanas x Entregas**
 
-🎯 **Objetivo:** Aplicar conocimientos sobre desarrollo de aplicaciones web y
+**Objetivo:** Aplicar conocimientos sobre desarrollo de aplicaciones web y
 consumo de APIs REST para implementar una aplicación cliente que interactúe con
 un servicio backend real desarrollado en FastAPI.
 
@@ -15,7 +15,7 @@ flujo completo de visualización, reserva y compra de tickets para eventos.
 
 ---
 
-### **📋 Instrucciones Generales**
+### **Instrucciones Generales**
 
 1. Consumir el API público entregado (basado en FastAPI y MongoDB).
 2. Crear un repositorio donde almacenarán el código del proyecto (React + Vite).
@@ -25,7 +25,7 @@ flujo completo de visualización, reserva y compra de tickets para eventos.
 
 ---
 
-### **🎟️ Enunciado**
+### **Enunciado**
 
 Se requiere desarrollar una aplicación web que permita a los usuarios
 visualizar y comprar tickets de distintos eventos.
@@ -53,7 +53,7 @@ correctamente este flujo.
 
 ---
 
-### **🧠 Requerimientos mínimos**
+### **Requerimientos mínimos**
 
 * Página de inicio con listado de eventos y buscador.
 * Vista de detalle del evento con tickets y botón de reserva.
@@ -64,7 +64,7 @@ correctamente este flujo.
 
 ---
 
-💬 **Fechas e Instrucciones de Entrega:**
+**Fechas e Instrucciones de Entrega:**
 
 1. **Fecha de Entrega:**
 

@@ -1,8 +1,8 @@
 # **Proyecto: Desarrollo de Aplicación Móvil – Sistema de Venta de Tickets**
 
-⏳ **Duración total: 3 semanas**
+**Duración total: 3 semanas**
 
-🎯 **Objetivo:** Aplicar conocimientos sobre desarrollo de aplicaciones móviles nativas con React Native para implementar una versión móvil completa de la aplicación web desarrollada en el Proyecto Integrador 1, consumiendo la misma API REST del backend en FastAPI.
+**Objetivo:** Aplicar conocimientos sobre desarrollo de aplicaciones móviles nativas con React Native para implementar una versión móvil completa de la aplicación web desarrollada en el Proyecto Integrador 1, consumiendo la misma API REST del backend en FastAPI.
 
 ---
 
@@ -11,7 +11,7 @@
 
 ---
 
-### **📋 Instrucciones Generales**
+### **Instrucciones Generales**
 
 1. Consumir el mismo API público del Proyecto 1 (basado en FastAPI y MongoDB).
 2. Crear un nuevo repositorio donde almacenarán el código del proyecto móvil (React Native + NativeWind).
@@ -20,7 +20,7 @@
 
 ---
 
-### **🎟️ Enunciado**
+### **Enunciado**
 
 Se requiere desarrollar una aplicación móvil nativa que permita a los usuarios visualizar y comprar tickets de distintos eventos directamente desde sus dispositivos móviles.
 
@@ -45,7 +45,7 @@ El objetivo del proyecto es construir la aplicación móvil nativa que consuma c
 
 ---
 
-### **🧠 Requerimientos mínimos**
+### **Requerimientos mínimos**
 
 * Pantalla de inicio con listado de eventos y buscador.
 * Vista de detalle del evento con tickets y botón de reserva.
@@ -56,7 +56,7 @@ El objetivo del proyecto es construir la aplicación móvil nativa que consuma c
 
 ---
 
-💬 **Fechas e Instrucciones de Entrega:**
+**Fechas e Instrucciones de Entrega:**
 
 1. **Fecha de Entrega:**
 
@@ -69,7 +69,7 @@ El objetivo del proyecto es construir la aplicación móvil nativa que consuma c
 
 ---
 
-**💡 Recomendación:** Comienza configurando el proyecto base con React Native +
+**Recomendación:** Comienza configurando el proyecto base con React Native +
 NativeWind lo antes posible. Reutiliza la lógica de negocio de la versión web
 adaptándola a React Native, pero respeta las convenciones y mejores prácticas
 del desarrollo móvil nativo. ¿Algo de lo que usaron anteriormente sirve acá?

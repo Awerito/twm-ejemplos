@@ -1,7 +1,7 @@
 ## **Actividad en Clase: Introducción práctica a JavaScript (ES6+)**
 
-⏳ **Duración total:** ~60 minutos  
-🎯 **Objetivo:** Familiarizarse con la sintaxis moderna de JavaScript (tipos,
+**Duración total:** ~60 minutos  
+**Objetivo:** Familiarizarse con la sintaxis moderna de JavaScript (tipos,
 funciones, `map`/`filter`/`reduce`, destructuring, spread y closures)
 construyendo un pequeño reporte de **estadísticas de lectura** en consola.
 
@@ -14,7 +14,7 @@ construyendo un pequeño reporte de **estadísticas de lectura** en consola.
 
 ---
 
-### **📋 Instrucciones Generales**
+### **Instrucciones Generales**
 
 1. Crea un archivo `stats.js` y ejecútalo con `node stats.js`.
 2. Usa **ES6+**: `const`/`let`, arrow functions, template strings.
@@ -24,7 +24,7 @@ construyendo un pequeño reporte de **estadísticas de lectura** en consola.
 
 ---
 
-## **🧩 Ejercicio único: Estadísticas de lectura**
+## **Ejercicio único: Estadísticas de lectura**
 
 **Meta:** procesar un arreglo de libros y construir un reporte, paso a paso.
 
@@ -52,13 +52,13 @@ const books = [
    `{ add(pages), total() }` con un acumulador interno; úsalo para sumar las
    páginas de dos sesiones de lectura.
 
-> 💡 **Tip:** un *closure* es una función que "recuerda" una variable de su
+> **Tip:** un *closure* es una función que "recuerda" una variable de su
 > ámbito (`total`) aunque ya haya terminado de ejecutarse la función externa.
 > Es la misma idea detrás del estado en React.
 
 ---
 
-## **🔗 Recursos útiles**
+## **Recursos útiles**
 
 - [MDN – JavaScript][mdn-js]
 - [Array: map / filter / reduce (MDN)][mdn-array]

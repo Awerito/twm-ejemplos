@@ -1,7 +1,7 @@
 ## **Actividad en Clase: “Landing de Producto” (React + Tailwind)**
 
-⏳ **Duración:** 120 minutos  
-🎯 **Objetivo:** Crear desde cero una **landing page profesional y responsive**
+**Duración:** 120 minutos  
+**Objetivo:** Crear desde cero una **landing page profesional y responsive**
 usando `React + Vite + Tailwind`, aplicando una estructura limpia de
 componentes y modo oscuro.
 
@@ -14,7 +14,7 @@ componentes y modo oscuro.
 
 ---
 
-### **📋 Setup inicial**
+### **Setup inicial**
 
 1. Crea un nuevo repositorio:
    `landing-template`
@@ -65,7 +65,7 @@ pnpm dev
 
 ---
 
-## **🧩 Desafío: crea una landing moderna**
+## **Desafío: crea una landing moderna**
 
 Implementa una **landing page ficticia** de un producto o servicio.  
 Debe contener al menos **cinco secciones** clave y funcionar tanto en claro
@@ -73,7 +73,7 @@ como en oscuro.
 
 ---
 
-### **📐 Estructura mínima (requerida)**
+### **Estructura mínima (requerida)**
 
 1. **Navbar fija**
 
@@ -105,7 +105,7 @@ como en oscuro.
 
 ---
 
-## **🧪 Criterios de aceptación**
+## **Criterios de aceptación**
 
 1. La app arranca sin errores (`pnpm dev` ok).
 2. Usa **componentes reutilizables** (`Button`, `Card`, `Input`, `Navbar`, etc.).
@@ -116,16 +116,16 @@ como en oscuro.
 
 ---
 
-## **💾 Entrega**
+## **Entrega**
 
 * Enlace al repositorio GitHub.
 * (Opcional) Despliegue en Netlify.
 
 ---
 
-## **📚 Referencias útiles de Tailwind**
+## **Referencias útiles de Tailwind**
 
-### 🔹 Clases más usadas en esta actividad
+### Clases más usadas en esta actividad
 
 | Tipo                   | Ejemplos                                                                | Uso común                                    |
 | ---------------------- | ----------------------------------------------------------------------- | -------------------------------------------- |
@@ -138,10 +138,10 @@ como en oscuro.
 
 ---
 
-### 🔹 Dónde buscar más
+### Dónde buscar más
 
-📘 **Documentación oficial:**
-👉 [https://tailwindcss.com/docs](https://tailwindcss.com/docs)
+**Documentación oficial:**
+[https://tailwindcss.com/docs](https://tailwindcss.com/docs)
 
 * Sección **“Layout”** → contenedores, espaciado, grid, flex.
 * Sección **“Typography”** → fuentes, tamaños, colores.
@@ -151,7 +151,7 @@ como en oscuro.
 
 ---
 
-> 🧠 Consejo: entra a la documentación y escribe en el buscador lo que quieras hacer
+> Consejo: entra a la documentación y escribe en el buscador lo que quieras hacer
 > (por ejemplo: *border radius*, *grid columns*, *hover background*).
 > Tailwind tiene ejemplos claros y en vivo de cada clase.
 

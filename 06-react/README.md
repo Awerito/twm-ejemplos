@@ -1,7 +1,7 @@
 ## **Actividad en Clase: SPA “Coffee Kiosk” (React + Vite)**
 
-⏳ **Duración total:** ~120 minutos  
-🎯 **Objetivo:** Construir una **single-page app** sin librerías adicionales
+**Duración total:** ~120 minutos  
+**Objetivo:** Construir una **single-page app** sin librerías adicionales
 que practique **componentes, props, estado, lifting state up y (un poco) prop
 drilling**: listado de productos, carrito y checkout con propina.
 
@@ -14,7 +14,7 @@ drilling**: listado de productos, carrito y checkout con propina.
 
 ---
 
-### **📋 Setup**
+### **Setup**
 
 ```bash
 pnpm create vite coffee-kiosk
@@ -43,7 +43,7 @@ src/
 
 ---
 
-## **🧩 Requisitos**
+## **Requisitos**
 
 ### 1) Datos y estado global (en `App.jsx`)
 
@@ -125,7 +125,7 @@ Reglas simples:
 
 ---
 
-## **🧪 Criterios de aceptación (mínimos)**
+## **Criterios de aceptación (mínimos)**
 
 1. Puedo cambiar de pestaña **Menu / Cart / Checkout** sin recargar la página.
 2. Desde **Menu**, puedo **agregar** productos y ver el **carrito** actualizado.
@@ -136,7 +136,7 @@ Reglas simples:
 
 ---
 
-## **✨ Extensiones opcionales (si sobra tiempo)**
+## **Extensiones opcionales (si sobra tiempo)**
 
 * **Badge** en `TabBar` mostrando la cantidad total de ítems del carrito.
 * Input de **búsqueda** en `Menu` que filtre productos por nombre.
@@ -145,7 +145,7 @@ Reglas simples:
 
 ---
 
-## 🔗 Enlaces
+## Enlaces
 
 * React Docs: [https://react.dev/](https://react.dev/)
 * `useState`: [https://react.dev/reference/react/useState](https://react.dev/reference/react/useState)

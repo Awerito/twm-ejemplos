@@ -1,13 +1,13 @@
 # **Actividad en Clase: Juego del Impostor con React Native + NativeWind**
 
-⏳ **Duración total:** 60 min  
-🎯 **Objetivo:** crear el juego del impostor usando **React Native**, **Expo**
+**Duración total:** 60 min  
+**Objetivo:** crear el juego del impostor usando **React Native**, **Expo**
 y **NativeWind** (Tailwind), ejecutarlo con **Metro Bundler** y visualizarlo en
 el **teléfono real**.
 
 ---
 
-## **📋 Requisitos Previos**
+## **Requisitos Previos**
 
 * **Node.js ≥ 24.x**  
 * **npm** (viene incluido con Node.js)  
@@ -124,7 +124,7 @@ Esto inicia el **Metro Bundler** y muestra:
 
 ---
 
-## **🎉 Resultado final esperado**
+## **Resultado final esperado**
 
 * Proyecto creado con Expo + NativeWind
 * Metro Bundler ejecutándose

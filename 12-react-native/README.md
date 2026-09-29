@@ -1,12 +1,12 @@
 # **Actividad en Clase: “Hola Mundo” con React Native (Expo)**
 
-⏳ **Duración total:** 60 min  
-🎯 **Objetivo:** crear un proyecto React Native usando **Expo**, ejecutarlo con
+**Duración total:** 60 min  
+**Objetivo:** crear un proyecto React Native usando **Expo**, ejecutarlo con
 **Metro Bundler** y visualizarlo en el **teléfono real**.
 
 ---
 
-## **📋 Requisitos Previos**
+## **Requisitos Previos**
 
 * **Node.js ≥ 24.x**  
 * **npm** (viene incluido con Node.js)  
@@ -92,7 +92,7 @@ Guarda el archivo y la app se recargará automáticamente en el celular.
 
 ---
 
-# **🎉 Resultado final esperado**
+# **Resultado final esperado**
 
 * Proyecto creado con Expo
 * Metro Bundler ejecutándose

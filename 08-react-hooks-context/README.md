@@ -1,7 +1,7 @@
 ## **Actividad en Clase: Coffee Kiosk con Hooks + Context**
 
-⏳ **Duración total:** ~120 minutos  
-🎯 **Objetivo:** Reutilizar la SPA del kiosko de café para practicar
+**Duración total:** ~120 minutos  
+**Objetivo:** Reutilizar la SPA del kiosko de café para practicar
 **contextos, hooks personalizados y memoización**. Vamos a extraer la lógica
 del carrito a un `ShopProvider` con `useContext` para compartir estado y
 acciones sin prop drilling.
@@ -16,7 +16,7 @@ base.
 
 ---
 
-### **📋 Setup sugerido**
+### **Setup sugerido**
 
 ```bash
 pnpm install
@@ -33,7 +33,7 @@ pnpm install
 
 ---
 
-## **🧱 Arquitectura objetivo**
+## **Arquitectura objetivo**
 
 ```
 src/
@@ -57,7 +57,7 @@ src/
 
 ---
 
-## **🧩 Tareas obligatorias**
+## **Tareas obligatorias**
 
 ### 1) Crear el contexto de la tienda
 - Implementa `ShopContext.jsx` con `createContext`.
@@ -91,7 +91,7 @@ repetir cálculos.
 
 ---
 
-## **✨ Extensiones opcionales**
+## **Extensiones opcionales**
 
 - Persistir el carrito en `localStorage` usando `useEffect`.
 - Agregar un contexto separado para preferencia de tema (modo claro/oscuro).
@@ -99,7 +99,7 @@ repetir cálculos.
 
 ---
 
-## 🔗 Recursos útiles
+## Recursos útiles
 
 - [React Docs – Context](https://react.dev/reference/react/useContext)
 - [React Docs – Memoization Hooks](https://react.dev/reference/react/useMemo)

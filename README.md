@@ -1,4 +1,4 @@
-# 🧩 Tecnologías Móviles y Web – Ejemplos de Clase
+# Tecnologías Móviles y Web – Ejemplos de Clase
 
 Este repositorio contiene el **código fuente y ejercicios prácticos** asociados
 a las clases del curso **Tecnologías Móviles y Web**.
@@ -7,7 +7,7 @@ con el material teórico disponible en [apuntestecweb][repo-apuntes].
 
 ---
 
-## 📚 Estructura del repositorio
+## Estructura del repositorio
 
 ```
 twm-ejemplos/
@@ -35,7 +35,7 @@ pequeños ejercicios y demostraciones prácticas.
 
 ---
 
-## 💡 Objetivo del repositorio
+## Objetivo del repositorio
 
 * Reforzar los contenidos del curso con **ejemplos funcionales y progresivos**.
 * Mostrar **buenas prácticas de desarrollo front-end** en HTML, CSS y JavaScript moderno.
@@ -44,7 +44,7 @@ pequeños ejercicios y demostraciones prácticas.
 
 ---
 
-## 🚀 Cómo usar
+## Cómo usar
 
 1. Clona el repositorio:
 
@@ -65,7 +65,7 @@ pequeños ejercicios y demostraciones prácticas.
 
 ---
 
-## 🧾 Relación con apuntes teóricos
+## Relación con apuntes teóricos
 
 | Carpeta                  | Clase teórica asociada         |
 | ------------------------ | ------------------------------ |
@@ -84,7 +84,7 @@ pequeños ejercicios y demostraciones prácticas.
 
 ---
 
-## 📜 License
+## License
 
 [MIT © Awerito][license]
 

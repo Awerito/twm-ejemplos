@@ -1,7 +1,7 @@
 ## **Actividad en Clase: Formulario de Registro de Alumno (HTML + CSS, sin JS)**
 
-⏳ **Duración total:** 120 minutos  
-🎯 **Objetivo:** Construir un formulario accesible y validado solo con HTML5 y
+**Duración total:** 120 minutos  
+**Objetivo:** Construir un formulario accesible y validado solo con HTML5 y
 CSS, que envíe la información a una página de confirmación (`done.html`) usando
 **método GET**. Se trabajará semántica, validación nativa, estilos de enfoque y
 responsividad básica.
@@ -13,7 +13,7 @@ responsividad básica.
 
 ---
 
-### **📋 Instrucciones Generales**
+### **Instrucciones Generales**
 
 * Crear al menos **tres archivos**: `index.html`, `done.html` y `styles.css`.
 * **Prohibido JavaScript** en la versión base.
@@ -30,7 +30,7 @@ un mensaje de confirmación.
 
 ---
 
-## **🧩 Actividad Paso a Paso**
+## **Actividad Paso a Paso**
 
 ### 1) Estructura y base visual
 
@@ -124,7 +124,7 @@ deja cosas anti-intuitivas sin querer).
 
 ---
 
-## ✅ Criterios de Aceptación
+## Criterios de Aceptación
 
 * Proyecto con `index.html`, `done.html` y `styles.css`.
 * Formulario accesible: etiquetas asociadas, `name`/`id` coherentes,
@@ -138,7 +138,7 @@ agrupaciones semánticas.
 
 ---
 
-## 🔗 Enlaces
+## Enlaces
 
 * [Formularios HTML (MDN)](https://developer.mozilla.org/es/docs/Learn/Forms)
 * [Elementos `<input>` y tipos (MDN)](https://developer.mozilla.org/es/docs/Web/HTML/Element/input)
@@ -149,7 +149,7 @@ agrupaciones semánticas.
 
 ---
 
-### ✍️ Sugerencia de estructura de carpetas
+### Sugerencia de estructura de carpetas
 
 ```
 .

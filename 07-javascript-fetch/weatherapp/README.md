@@ -1,7 +1,7 @@
 ## **Actividad en Clase: “Weather Map” (React + React-Leaflet + Open-Meteo)**
 
-⏳ **Duración total:** ~120 minutos  
-🎯 **Objetivo:** Renderizar un **mapa interactivo**, capturar **coordenadas por
+**Duración total:** ~120 minutos  
+**Objetivo:** Renderizar un **mapa interactivo**, capturar **coordenadas por
 click** o **geolocalización**, y consultar **clima actual** para esa ubicación.
 
 ---
@@ -14,7 +14,7 @@ click** o **geolocalización**, y consultar **clima actual** para esa ubicación
 
 ---
 
-### **📋 Setup**
+### **Setup**
 
 ```bash
 pnpm create vite weather-map
@@ -34,7 +34,7 @@ import "leaflet/dist/leaflet.css";
 
 ---
 
-## **🧩 Requisitos**
+## **Requisitos**
 
 ### 1) Estructura base
 
@@ -194,7 +194,7 @@ src/
 
 ---
 
-## **🧪 Criterios de aceptación (mínimos)**
+## **Criterios de aceptación (mínimos)**
 
 1. El mapa **renderiza** con tiles OSM y **atribución visible**. ([leafletjs.com][2])
 2. **Click** en el mapa → aparece un **marcador** y se guardan `{lat, lng}`.
@@ -205,7 +205,7 @@ src/
 
 ---
 
-## **✨ Extensiones opcionales**
+## **Extensiones opcionales**
 
 * Botón **“Usar mi ubicación”** explícito (además del auto-intento).
 * Convertir `weathercode` a texto (tabla propia simple).
@@ -215,14 +215,14 @@ src/
 
 ---
 
-## 🔗 Enlaces
+## Enlaces
 
 * React-Leaflet (instalación): ([React Leaflet][5])
 * Leaflet Quick Start (tiles + attribution): ([leafletjs.com][2])
 * OSM Tile Usage Policy (atribución obligatoria): ([operations.osmfoundation.org][6])
 * Open-Meteo: **Docs** y ejemplo `current_weather=true`: ([Open Meteo][3])
 
-[1]: https://open-meteo.com "Open-Meteo.com: 🌤️ Free Open-Source Weather API"
+[1]: https://open-meteo.com "Open-Meteo.com: Free Open-Source Weather API"
 [2]: https://leafletjs.com/examples/quick-start "Quick Start Guide - Leaflet - a JavaScript library for interactive maps"
 [3]: https://open-meteo.com/en/docs "Weather Forecast API"
 [4]: https://open-meteo.com/en/docs/geocoding-api "Geocoding API"

@@ -1,7 +1,7 @@
 ## **Actividad en Clase: “Mini ChatGPT Markov en React Native”**
 
-⏳ **Duración total:** ~120 minutos  
-🎯 **Objetivo:** portar una cadena de Markov de Python a JavaScript y usarla en una app React Native para simular un “chatbot” muy simple.
+**Duración total:** ~120 minutos  
+**Objetivo:** portar una cadena de Markov de Python a JavaScript y usarla en una app React Native para simular un “chatbot” muy simple.
 
 ---
 
@@ -17,7 +17,7 @@
 
 ---
 
-### **📋 Instrucciones Generales**
+### **Instrucciones Generales**
 
 1. Trabaja sobre un proyecto Expo existente o crea uno nuevo.
 2. Asegúrate de tener Nativewind configurado.
@@ -25,7 +25,7 @@
 
 ---
 
-## **🧩 Actividad / Ejercicios**
+## **Actividad / Ejercicios**
 
 ### 1) Portar la cadena de Markov a JavaScript
 
@@ -63,11 +63,11 @@
      * Llame a `generateText` y agregue el mensaje del bot.
 3. Diferencia visualmente usuario y bot usando clases de Nativewind (alineación y color de fondo distintos).
 
-> 💡 **Tip:** fija un largo de respuesta, por ejemplo `length = 25`, para no complicar la interfaz.
+> **Tip:** fija un largo de respuesta, por ejemplo `length = 25`, para no complicar la interfaz.
 
 ---
 
-## **🧪 Criterios de aceptación**
+## **Criterios de aceptación**
 
 1. La app corre en Expo Go sin errores.
 2. Al escribir una palabra y presionar el botón, se agrega el mensaje del usuario y luego una respuesta generada por el modelo.
@@ -77,7 +77,7 @@
 
 ---
 
-## **✨ Extensiones opcionales**
+## **Extensiones opcionales**
 
 * Permitir pegar un texto de entrenamiento distinto en un `TextInput` y reconstruir el modelo.
 * Permitir elegir la cantidad de palabras generadas (slider o input numérico).
@@ -85,7 +85,7 @@
 
 ---
 
-## **🔗 Recursos útiles**
+## **Recursos útiles**
 
 * [Documentación React Native][recurso-principal]
 * [Nativewind con Expo][recurso-secundario]

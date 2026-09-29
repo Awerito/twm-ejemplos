@@ -1,4 +1,4 @@
-## **🔗 Setup básico de JavaScript en Windows**
+## **Setup básico de JavaScript en Windows**
 
 La mayoría usará **Windows** y **Visual Studio Code**. Estos son los pasos iniciales para preparar el entorno de desarrollo con JavaScript.
 
@@ -14,7 +14,7 @@ La mayoría usará **Windows** y **Visual Studio Code**. Estos son los pasos ini
   ```
 
 
-👉 En Linux/macOS se recomienda usar **nvm**: [Guía oficial de nvm](https://github.com/nvm-sh/nvm)
+En Linux/macOS se recomienda usar **nvm**: [Guía oficial de nvm](https://github.com/nvm-sh/nvm)
 
 ---
 

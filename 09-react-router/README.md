@@ -1,7 +1,7 @@
 ## **Actividad en Clase: Mini SPA con React Router**
 
-⏳ **Duración total:** ~90 minutos  
-🎯 **Objetivo:** Incorporar **navegación declarativa** con `react-router-dom`,
+**Duración total:** ~90 minutos  
+**Objetivo:** Incorporar **navegación declarativa** con `react-router-dom`,
 rutas anidadas y parámetros dinámicos reutilizando componentes existentes.
 
 ---
@@ -12,7 +12,7 @@ rutas anidadas y parámetros dinámicos reutilizando componentes existentes.
 
 ---
 
-### **📋 Setup**
+### **Setup**
 
 ```bash
 pnpm install
@@ -29,7 +29,7 @@ pnpm add react-router-dom
 
 ---
 
-## **🧩 Requisitos mínimos**
+## **Requisitos mínimos**
 
 1. **Configurar el router básico**
    - En `main.jsx`, envuelve `<App />` con `<BrowserRouter>`.
@@ -45,7 +45,7 @@ pnpm add react-router-dom
 
 ---
 
-## **✨ Extensiones sugeridas**
+## **Extensiones sugeridas**
 
 - Añadir rutas anidadas para secciones dentro de `/about`.
 - Cargar datos asincrónicos con `useEffect` usando el `id` de la URL.
@@ -53,7 +53,7 @@ pnpm add react-router-dom
 
 ---
 
-## 🔗 Recursos útiles
+## Recursos útiles
 
 - [React Router Docs](https://reactrouter.com/en/main/start/tutorial)
 - [Guía oficial de Vite](https://vitejs.dev/guide/)

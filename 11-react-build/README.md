@@ -1,7 +1,7 @@
 ## **Actividad en Clase: “About Me” con React + Vite + Tailwind y deploy en Netlify**
 
-⏳ **Duración total:** 90 min  
-🎯 **Objetivo:** crear una página “About Me” simple y estética con React + Vite
+**Duración total:** 90 min  
+**Objetivo:** crear una página “About Me” simple y estética con React + Vite
 + Tailwind, versionarla con Git y publicarla en Netlify.
 
 ---
@@ -14,14 +14,14 @@ partir desde cero (a elección).
 
 ---
 
-### **📋 Instrucciones Generales**
+### **Instrucciones Generales**
 
 1. Trabaja sobre el proyecto base (Vite + React + Tailwind).
 2. Estructura el código en `src/components/`, `src/assets/` y `src/pages/`.
 
 ---
 
-## **🧩 Actividad**
+## **Actividad**
 
 ### 1) Composición de la página “About Me”
 
@@ -40,7 +40,7 @@ partir desde cero (a elección).
 `gap-4`).
 5. Revisa responsividad y contraste visual.
 
-> 💡 **Tip:** si agregas más páginas, considera `react-router-dom`, aunque no
+> **Tip:** si agregas más páginas, considera `react-router-dom`, aunque no
 > es obligatorio.
 
 ---
@@ -59,7 +59,7 @@ partir desde cero (a elección).
    `import.meta.env.VITE_API_BASE_URL`.
 3. Verifica estructura `dist/` y rutas de assets.
 
-> 💡 **Tip:** no expongas secretos; solo `VITE_*`.
+> **Tip:** no expongas secretos; solo `VITE_*`.
 
 ---
 
@@ -87,7 +87,7 @@ partir desde cero (a elección).
 5. Verifica el deploy en `https://<sitio>.netlify.app` y cambia el dominio si
    quieres.
 
-> 💡 **SPA redirect (si usas Router):** crea `public/_redirects` con:
+> **SPA redirect (si usas Router):** crea `public/_redirects` con:
 >
 > ```
 > /* /index.html 200
@@ -95,7 +95,7 @@ partir desde cero (a elección).
 
 ---
 
-## **🧪 Criterios de aceptación**
+## **Criterios de aceptación**
 
 1. **Funcional:** carga sin errores en Netlify; layout responsive; enlaces
    externos operativos.
@@ -107,7 +107,7 @@ partir desde cero (a elección).
 
 ---
 
-## **✨ Extensiones opcionales**
+## **Extensiones opcionales**
 
 * Dark/Light Mode con toggle o `prefers-color-scheme`.
 * Sección “Proyectos” con cards.
@@ -117,7 +117,7 @@ partir desde cero (a elección).
 
 ---
 
-## **🔗 Recursos útiles**
+## **Recursos útiles**
 
 * [Vite – guía de build][vite]
 * [Tailwind – instalación con Vite][tailwind-vite]

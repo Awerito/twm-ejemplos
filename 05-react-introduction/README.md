@@ -1,8 +1,8 @@
 ## **Actividad en Clase: Simulador de Propinas (Tip Calculator)**
 
-⏳ **Duración total:** ~120 minutos  
+**Duración total:** ~120 minutos  
 
-🎯 **Objetivo:** Practicar React con Vite (estado, eventos, props) construyendo
+**Objetivo:** Practicar React con Vite (estado, eventos, props) construyendo
 un simulador de propinas tipo “pantalla de pago”.
 
 ---
@@ -13,7 +13,7 @@ un simulador de propinas tipo “pantalla de pago”.
 
 ---
 
-### **📋 Instrucciones Generales**
+### **Instrucciones Generales**
 
 1. Crea un proyecto con Vite + React (`pnpm create vite`).  
 2. Limpia la plantilla inicial (borra logos y CSS innecesarios).  
@@ -22,7 +22,7 @@ un simulador de propinas tipo “pantalla de pago”.
 
 ---
 
-## **🧩 Ejercicios**
+## **Ejercicios**
 
 ### 1) Monto y porcentaje
 - Input para **monto** de la cuenta.  
@@ -35,7 +35,7 @@ un simulador de propinas tipo “pantalla de pago”.
 
 ### 2) Mensaje “meme”
 - Si el porcentaje elegido **no es 20%**, muestra debajo:  
-  - `"Most people tip 20% 😉"`  
+- `"Most people tip 20% "`  
 - Si es 20%, no muestres nada.
 
 ---
@@ -54,7 +54,7 @@ el porcentaje.
 
 ---
 
-## 🔗 Enlaces
+## Enlaces
 
 - [Documentación oficial de React](https://react.dev/)  
 - [useState (React Docs)](https://react.dev/reference/react/useState)  

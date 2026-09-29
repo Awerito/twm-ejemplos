@@ -1,7 +1,7 @@
 ## **Actividad en Clase: “Todo API” (React + JSONPlaceholder)**
 
-⏳ **Duración:** 120 minutos  
-🎯 **Objetivo:** Consumir una API REST real desde eventos del usuario,
+**Duración:** 120 minutos  
+**Objetivo:** Consumir una API REST real desde eventos del usuario,
 manejando carga/errores y un CRUD mínimo de tareas.
 
 ---
@@ -13,7 +13,7 @@ manejando carga/errores y un CRUD mínimo de tareas.
 
 ---
 
-### **📋 Setup front**
+### **Setup front**
 
 ```bash
 pnpm create vite todo --template react-swc
@@ -30,7 +30,7 @@ VITE_API_URL=https://jsonplaceholder.typicode.com
 
 ---
 
-## **⚠️ Esta API finge las escrituras**
+## **Esta API finge las escrituras**
 
 `POST`, `PATCH` y `DELETE` responden como corresponde, pero **no guardan nada**.
 El `POST` siempre devuelve `id: 201` y ese recurso no existe después.
@@ -41,7 +41,7 @@ recargas, vuelven los datos originales.
 
 ---
 
-## **🧩 Lo que debes implementar con la API**
+## **Lo que debes implementar con la API**
 
 1. **Listado de Todos**
 
@@ -74,7 +74,7 @@ recargas, vuelven los datos originales.
 
 ---
 
-## **🔗 Base URL**
+## **Base URL**
 
 ```
 BASE = VITE_API_URL  (https://jsonplaceholder.typicode.com)
@@ -84,7 +84,7 @@ Todas las rutas de abajo son relativas a `BASE`.
 
 ---
 
-## **📚 Documentación del API**
+## **Documentación del API**
 
 ### 1) `GET /todos` — Listar todos
 
@@ -171,7 +171,7 @@ Recuerda que `fetch` **no lanza error** con un `404`. Hay que revisar
 
 ---
 
-## **🧪 Criterios de aceptación (mínimos)**
+## **Criterios de aceptación (mínimos)**
 
 1. La app lista tareas con `GET /todos` desde un botón, mostrando estados de
    **carga**, **error** y **vacío**.
@@ -184,7 +184,7 @@ Recuerda que `fetch` **no lanza error** con un `404`. Hay que revisar
 
 ---
 
-## **🧪 Pruebas rápidas**
+## **Pruebas rápidas**
 
 Antes de escribir React, prueba los endpoints desde la terminal:
 

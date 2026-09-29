@@ -1,7 +1,7 @@
 ## **Actividad en Clase: [Título descriptivo]**
 
-⏳ **Duración total:** [Tiempo estimado]  
-🎯 **Objetivo:** [Resumen breve del objetivo general de la actividad].
+**Duración total:** [Tiempo estimado]  
+**Objetivo:** [Resumen breve del objetivo general de la actividad].
 
 ---
 
@@ -12,7 +12,7 @@ librerías, etc.]
 
 ---
 
-### **📋 Instrucciones Generales**
+### **Instrucciones Generales**
 
 1. [Indica los pasos de preparación inicial, limpieza de plantillas,
    convenciones].
@@ -21,7 +21,7 @@ librerías, etc.]
 
 ---
 
-## **🧩 Actividad / Ejercicios**
+## **Actividad / Ejercicios**
 
 ### 1) [Nombre del ejercicio o fase]
 **Meta:** [Describe el objetivo específico del ejercicio].
@@ -39,12 +39,12 @@ librerías, etc.]
 2. [Añade criterios o reglas de negocio].
 3. [Incluye expectativas sobre pruebas o validaciones].
 
-> 💡 **Tip:** Usa bloques de código (```` ``` ````) para fragmentos relevantes
+> **Tip:** Usa bloques de código (```` ``` ````) para fragmentos relevantes
 > y aclara si son opcionales.
 
 ---
 
-## **🧪 Criterios de aceptación**
+## **Criterios de aceptación**
 
 1. [Enumera condiciones medibles que deben cumplirse para aprobar la actividad].
 2. [Incluye verificaciones funcionales, de estilo o de estructura].
@@ -52,14 +52,14 @@ librerías, etc.]
 
 ---
 
-## **✨ Extensiones opcionales**
+## **Extensiones opcionales**
 
 - [Lista ideas extra para quienes terminen antes o quieran profundizar].
 - [Indica mejoras de UX/UI, rendimiento o integraciones adicionales].
 
 ---
 
-## **🔗 Recursos útiles**
+## **Recursos útiles**
 
 - [Recurso principal o documentación][recurso-principal]
 - [Tutorial o guía complementaria][recurso-secundario]

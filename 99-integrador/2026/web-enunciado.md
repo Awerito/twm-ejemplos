@@ -1,8 +1,8 @@
 ## **Proyecto: Desarrollo de Aplicación Web – Monitoreo de Sensores**
 
-⏳ **Duración: semanas 12 a 22 (RA1)**
+**Duración: semanas 12 a 22 (RA1)**
 
-🎯 **Objetivo:** Aplicar conocimientos sobre desarrollo de aplicaciones web y
+**Objetivo:** Aplicar conocimientos sobre desarrollo de aplicaciones web y
 consumo de APIs REST para implementar una aplicación cliente que interactúe con
 un servicio backend real desarrollado en FastAPI.
 
@@ -16,7 +16,7 @@ oxígeno disuelto en centros de cultivo.
 
 ---
 
-### **📋 Instrucciones Generales**
+### **Instrucciones Generales**
 
 1. Consumir el API entregado (basado en FastAPI y MongoDB).
 2. Crear un repositorio donde almacenarán el código del proyecto (React + Vite).
@@ -27,7 +27,7 @@ oxígeno disuelto en centros de cultivo.
 
 ---
 
-### **📡 Enunciado**
+### **Enunciado**
 
 Se requiere desarrollar una aplicación web que permita al administrador
 supervisar el estado de los sensores instalados en los centros de cultivo.
@@ -63,7 +63,7 @@ construye en el frontend combinando las rutas anteriores.
 
 ---
 
-### **🧠 Requerimientos mínimos**
+### **Requerimientos mínimos**
 
 * Pantalla de login y manejo del token en las peticiones siguientes.
 * Vista de listado de centros con buscador y paginación.
@@ -79,7 +79,7 @@ y responde en hora chilena. No hay conversiones que hacer.
 
 ---
 
-💬 **Fechas e Instrucciones de Entrega:**
+**Fechas e Instrucciones de Entrega:**
 
 1. **Avance 1 (15%)**
 
