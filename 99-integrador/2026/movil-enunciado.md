@@ -1,6 +1,6 @@
 ## **Proyecto: Desarrollo de Aplicación Móvil – Técnico en Terreno**
 
-**Duración: semanas XX a XX (RA2)**
+**Duración: semanas 23 a 33 (RA2)**
 
 **Objetivo:** Aplicar conocimientos sobre desarrollo de aplicaciones móviles
 nativas con React Native para implementar el cliente del técnico en terreno,
@@ -90,19 +90,19 @@ y responde en hora chilena. No hay conversiones que hacer.
 
 **Fechas e Instrucciones de Entrega:**
 
-1. **Avance 1 (XX%)**
+1. **Avance 1 (15%)**
 
-   * **Fecha:** XX
+   * **Fecha:** jueves 26 de noviembre
    * **Descripción:** Presentación de avance.
 
-2. **Avance 2 (XX%)**
+2. **Avance 2 (15%)**
 
-   * **Fecha:** XX
+   * **Fecha:** jueves 10 de diciembre
    * **Descripción:** Presentación de avance.
 
-3. **Entrega Móvil (XX%)**
+3. **Entrega Móvil (20%)**
 
-   * **Fecha:** XX
+   * **Fecha:** martes 22 de diciembre
    * **Descripción:** Entrega del url del repositorio en GitHub del código
    fuente implementado.
 
